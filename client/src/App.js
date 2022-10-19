@@ -17,11 +17,11 @@ function App() {
   return (
     <div>
 
-    {(typeof backendData.users === 'undefined') ? (
+    {(typeof backendData.recipes === 'undefined') ? (
       <p>Loading...</p>
     ): (
-      backendData.users.map((user, i) => (
-        <p key={i}>{user}</p>
+      backendData.recipes.map((recipe, i) => (
+        <p key={i}>{recipe}</p>
       ))
     )}
 
