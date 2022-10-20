@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-function GetData() {
+const GetData = () => {
 
   const [backendData, setBackendData] = useState([{}])
 
