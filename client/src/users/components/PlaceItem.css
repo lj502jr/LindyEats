@@ -12,15 +12,15 @@
 }
 
 .place-item__info {
-  flex: 4;
-  padding: 1rem 0.5rem;
+  flex: 10;
+  padding: 1rem 0.5rem 0;
   text-align: left;
 }
 
 .place-item__image {
   flex: 1;
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 1rem 0;
 }
 
 .place-item__image img {
@@ -43,7 +43,6 @@
 .place-item__actions {
   padding: 0 1rem;
   text-align: center;
-  border-top: 1px solid #ccc;
 }
 
 .place-item__modal-content {
@@ -62,11 +61,5 @@
 @media (max-width: 768px) {
   .place-item__image img {
     width: 90%;
-  }
-  .place-item__image {
-    padding: 0.5rem;
-  }
-  .place-item__info {
-    padding-top: 0.5rem;
   }
 }
