@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Card from '../../shared/components/UIElements/Card'
+import Button from '../../shared/components/FormElements/Button'
 import './PlaceItem.css'
 
 const CommentItem = props => {
@@ -17,8 +18,8 @@ const CommentItem = props => {
           </div>
         </div>
         <div className='place-item__actions'>
-          <button>EDIT</button>
-          <button>DELETE</button>
+          <Button inverse to={`/places/${props.userId}`}>EDIT</Button>
+          <Button danger>DELETE</Button>
         </div>
       </Card>
     </li>

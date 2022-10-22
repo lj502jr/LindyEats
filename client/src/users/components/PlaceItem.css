@@ -43,6 +43,7 @@
 .place-item__actions {
   padding: 0 1rem;
   text-align: center;
+  font-size: .75rem;
 }
 
 .place-item__modal-content {

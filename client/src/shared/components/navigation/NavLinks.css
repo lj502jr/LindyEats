@@ -19,6 +19,7 @@
   color: white;
   text-decoration: none;
   padding: 0.5rem;
+  font-weight: bold;
 }
 
 .nav-links a:hover,
@@ -26,7 +27,7 @@
 .nav-links a.active {
   background: white;
   border-color: #FF731D;
-  color: #292929;
+  color: #FF731D;
 }
 
 .nav-links button {
@@ -36,4 +37,22 @@
   background: transparent;
   padding: 0.5rem;
   font: inherit;
+}
+
+@media (max-width: 768px) {
+  .nav-links a {
+    border-color: #FF731D;
+    color: #FF731D;
+    font-size: 1.2rem;
+  }
+  .nav-links a:hover,
+  .nav-links a:active,
+  .nav-links a.active {
+    background: #FF731D;
+    border-color: #FF731D;
+    color: white;
+  }
+  .nav-links li {
+    margin: 3rem 0;
+  }
 }
